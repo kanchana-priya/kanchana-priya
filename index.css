@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+	box-sizing : border-box;
+}
+body{
+	display : flex;
+	align-items : center;
+	justify-content : center;
+	flex-direction :column;
+	background-color:#00cc99;
+}
+.task-status{
+	background-color:white;
+	margin:10px;
+	padding:10px 100px 10px 5px;
+	position:relative;
+	border-radius:4px;
+	width:442px;
+	font-family:"Montserrat" ,sans-serif;
+	font-size:20px;
+}
+.task-status button{
+	position:absolute;
+	top:0;
+	right:10px;
+	bottom:10px;
+	height:30px;
+	margin-top:7px;
+	border:none;
+	background-color:white;
+	cursor:pointer;
+}
+.completed-task{
+	color: red ;
+	text-decoration: line-through;
+	text-decoration: bolder;
+}
+.divBox input{
+	height: 40px;
+	width:400px;
+    background-color:#006666;
+	margin-left:10px;
+	border:none;
+	border-radius:0;
+	cursor:pointer;
+	color:white;
+	padding-top:5px;
+	font-family:'Montserrat' ,sans-serif;
+}
+.divBox button{
+	height:40px;
+	padding:8px 13px;
+	color:#006666;
+	border:none;
+	border-radius:0;
+	cursor:pointer;
+	font-weight:bold;
+	font-size:18px;
+}
+::placeholder{
+	color:white;
+	font-style:italic;
+	font-family:'Montserrat' ,sans-serif;
+	font-weight:bold;
+	font-size:21px;
+}
+.task-status:hover{
+	background-color:	#009494;
+	color:white;
+}
+.divBox input:hover{
+	opacity:0.7;
+}
+.divBox button:hover{
+	opacity:0.7;
+}
